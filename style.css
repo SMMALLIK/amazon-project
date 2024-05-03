@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.border-hover:hover{
+    border: 1.5px solid white;
+    padding: 6px 6px;
+}
+
+.navbar{
+    background-color: #000628;
+    height: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 165px;
+}
+
+.logo{
+    background-image: url(amazon_clone_img/assets/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    margin-left: 20px;
+
+}
+
+
+/* ......................location............ */
+
+.location{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.location>:nth-child(1){
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 18px;
+}
+
+.location span{
+    font-size: 15px;
+    font-weight: 600;
+}
+.location i{
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+/* .....................search box.................. */
+
+.search-box{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    /* height: 60px; */
+}
+
+.search-box select{
+    height: 45px;
+    width: 50px;
+    text-align: center;
+    background-color: #D4D4D4;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.search-box input{
+    height: 42px;
+    width: 700px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.glass{
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3A847;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+/* .........................account & list............ */
+
+.usflag{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 12px;
+    gap: 4px;
+}
+
+.usflag>:nth-child(2){
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.account{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.account>:nth-child(1){
+    font-size: 12px;
+    font-weight: 400;
+}
+.account>:nth-child(2){
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ...........orders........ */
+
+.order{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.order>:nth-child(1){
+    font-size: 12px;
+    font-weight: 400;
+}
+.order>:nth-child(2){
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ................Cart............. */
+
+.cart{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-left: 25px;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cart>:nth-child(2){
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 14px;
+}
+
+/* ..................panel............... */
+
+.panel {
+    background-color: #232F3E;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 20px;
+    color: white;
+}
+
+.panel-bar{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.panel-bar i{
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+.panel-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.panel-menu span{
+    font-size: 15px;
+}
+
+/* ......image slider.............. */
+
+.header-imgset ul{
+    display: flex;
+    overflow-y: hidden;
+}
+
+.header-imgset img{
+    max-width: 100%;
+}
+
+.header-imgset a{
+    position: absolute;
+    top: 22%;
+    z-index: 1;
+    font-size: 50px;
+    padding: 5vh 2vw;
+    background: rgb(171, 105, 105);
+    color: aqua;
+    
+}
+
+.next-icon{
+    right: 0;
+}
+.arrow{
+}
+
